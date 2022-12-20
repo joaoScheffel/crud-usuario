@@ -1,0 +1,57 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "start": "nodemon dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-ts": "tsc --project tsconfig-build.json",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/jeep-labs/back-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jeep-labs/back-end/issues"
+  },
+  "homepage": "https://gitlab.com/jeep-labs/back-end#readme",
+  "dependencies": {
+    "@brazilian-utils/is-valid-cep": "^0.1.2",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.14",
+    "@types/express-validator": "^3.0.0",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/mongoose": "^5.11.97",
+    "@types/node-fetch": "^2.6.2",
+    "@types/nodemailer": "^6.4.6",
+    "@types/uuid": "^8.3.4",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cryptojs": "^2.5.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.6.6",
+    "nodemailer": "^6.8.0",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "nodemon": "^2.0.20",
+    "notenv": "^2.0.3",
+    "typescript": "^4.8.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/cryptojs": "^3.1.30",
+    "@types/morgan": "^1.9.3",
+    "@types/multer": "^1.4.7",
+    "@types/nodemailer-express-handlebars": "^4.0.2"
+  }
+}
