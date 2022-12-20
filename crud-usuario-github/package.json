@@ -11,15 +11,15 @@
     "clean": "tsc --build --clean"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/jeep-labs/back-end.git"
+    "type": "",
+    "url": ""
   },
-  "author": "",
+  "author": "João Lucas Scheffel",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/jeep-labs/back-end/issues"
+    "url": ""
   },
-  "homepage": "https://gitlab.com/jeep-labs/back-end#readme",
+  "homepage": "https://github.com/joaoScheffel",
   "dependencies": {
     "@brazilian-utils/is-valid-cep": "^0.1.2",
     "@types/bcryptjs": "^2.4.2",
